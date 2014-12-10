@@ -31,6 +31,25 @@ p {
 	font-size:16px;
 }
 
+section {
+	margin-top:200px;
+}
+
+footer p {
+	color:#1F2636;
+	position:relative;
+	top:50%;
+	transform:translate(0,-50%);
+}
+
+footer a {
+	color:#1F2636;
+}
+
+footer a:hover {
+	color:white;
+}
+
 footer {
 	position: relative;
 	right: 0;
@@ -40,12 +59,26 @@ footer {
 	text-align:center;
 	background:;
 	clear:both;
+	height:50px;
+	background:#7b838c;
+	margin-top:200px;
 }
 
-a {
-	background:#767676;
+.projectbuttons a {
+	background:#7b838c;
 	color:#1F2636;
 	padding:0 8px;
+	line-height: inherit;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 20px;
 }
 
+.projectbuttons a:hover {
+	color:white;
+}
 
+a.nike:hover {
+	background:#F18D2A;
+}
