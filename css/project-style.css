@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* Custom styling for the project pages */
+
+nav {
+	text-align:center;
+	margin-top:25px;
+}
+
+body {
+	background-color:#aeb5bf;
+}
+
+h1, h2, p {
+	font-family:Arial, sans-serif;
+	color:#1F2636;
+}
+
+h1 {
+	font-size:36px;
+	line-height:1em;
+}
+
+h2 {
+	font-size:20px;
+	font-style:italic;
+	line-height:.25em;
+}
+
+p {
+	font-size:16px;
+	line-height:1.25em;
+	padding-top:25px;
+}
+
+header {
+	text-align:center;
+	padding-top:50px;
+}
+
+body-copy {
+	margin-top:25px;
+}

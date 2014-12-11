@@ -80,5 +80,37 @@ footer {
 }
 
 a.nike:hover {
-	background:#F18D2A;
+	background:#F26721;
+}
+
+a.phoenix:hover {
+	background:#BD202E;
+}
+
+a.red-bull:hover {
+	background:#D3232A;
+}
+
+a.kings-wild-project:hover {
+	background:#A19886;
+}
+
+a.dustin-bowder:hover {
+	background:#00253B;
+}
+
+a.gate-25:hover {
+	background:#C93031;
+}
+
+a.bebs-jam:hover {
+	background:#F26721;
+}
+
+a.grandma-lucille:hover {
+	background:#F26721;
+}
+
+a.new-era:hover {
+	background:#BD984C;
 }
