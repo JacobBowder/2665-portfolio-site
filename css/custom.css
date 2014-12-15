@@ -40,6 +40,7 @@ footer p {
 	position:relative;
 	top:50%;
 	transform:translate(0,-50%);
+	word-spacing:2em;
 }
 
 footer a {
@@ -73,10 +74,12 @@ footer {
 	width: 100%;
 	text-align: center;
 	margin: 20px;
+	opacity: 0.4;
 }
 
 .projectbuttons a:hover {
 	color:white;
+	opacity: 1.0;
 }
 
 a.nike:hover {
@@ -104,13 +107,60 @@ a.gate-25:hover {
 }
 
 a.bebs-jam:hover {
-	background:#F26721;
+	background:#14572c;
 }
 
 a.grandma-lucille:hover {
-	background:#F26721;
+	background:#3188a9;
 }
 
 a.new-era:hover {
 	background:#BD984C;
+}
+
+@media only screen and (max-width: 40em) { 
+
+.projectbuttons a {
+	opacity:1.0;
+	color:white;
+}
+
+a.nike {
+	background: #F26721;
+}
+
+a.phoenix {
+	background:#BD202E;
+}
+
+a.red-bull {
+	background:#D3232A;
+}
+
+a.kings-wild-project {
+	background:#A19886;
+}
+
+a.dustin-bowder {
+	background:#00253B;
+}
+
+a.gate-25 {
+	background:#C93031;
+}
+
+a.bebs-jam {
+	background:#14572c;
+}
+
+a.grandma-lucille {
+	background:#3188a9;
+}
+
+a.new-era {
+	background:#BD984C;
+}
+
+
+
 }

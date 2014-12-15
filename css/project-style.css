@@ -23,20 +23,102 @@ h1 {
 h2 {
 	font-size:20px;
 	font-style:italic;
-	line-height:.25em;
+	line-height:.5em;
 }
 
 p {
 	font-size:16px;
-	line-height:1.25em;
 	padding-top:25px;
+	text-align:left;
 }
 
 header {
 	text-align:center;
 	padding-top:50px;
+	max-width:500px;
+	margin: 0 auto;
 }
 
-body-copy {
-	margin-top:25px;
+img {
+	margin-top:50px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+a#logo {
+	background-image:url(../img/home-active.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:108px;
+	height:88px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+}
+
+a#logo:hover {
+	background-image:url(../img/home-hover.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:108px;
+	height:88px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+}
+
+a#previous {
+	background-image:url(../img/previous-active.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:50px;
+	height:50px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+	background-size:75%;
+}
+
+a#previous:hover {
+	background-image:url(../img/previous-hover.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:50px;
+	height:50px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+	background-size:75%;
+}
+
+a#next {
+	background-image:url(../img/next-active.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:50px;
+	height:50px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+	background-size:75%;
+}
+
+a#next:hover {
+	background-image:url(../img/next-hover.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:50px;
+	height:50px;
+	display:block;
+	background-repeat:no-repeat;
+	margin-bottom:25px;
+	background-size:75%;
+}
+
+@media only screen and (max-width: 40em) { 
+	header {
+		clear:both;
+		padding-top:0;
+	}
+
 }
